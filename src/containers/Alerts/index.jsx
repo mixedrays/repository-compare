@@ -4,10 +4,6 @@ import { hideAlert, showAlert } from "../../actions/alerts";
 import * as style from "./style.css";
 
 class Alerts extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         if (this.props.alerts.length === 0) {
             return null;

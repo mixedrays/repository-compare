@@ -84,9 +84,7 @@ class SearchBar extends React.Component {
                     <div className="col-12 col-md-2 form-group">
                         <span className="input-group-btn">
                             <button
-                                className={`btn btn-primary btn-block ${
-                                    isLoading ? "loading" : ""
-                                }`}
+                                className={`btn btn-primary btn-block ${ isLoading ? "loading" : "" }`}
                                 disabled={isLoading}
                             >
                                 Add

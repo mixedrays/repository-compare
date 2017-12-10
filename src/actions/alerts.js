@@ -1,4 +1,4 @@
-import { SHOW_ALERT, HIDE_ALERT } from "../constants/actions";
+import {SHOW_ALERT, HIDE_ALERT} from "../constants/actions";
 
 export const hideAlert = id => {
     return dispatch => {
@@ -13,7 +13,7 @@ export const showAlert = (type, text) => {
     return dispatch => {
         dispatch({
             type: SHOW_ALERT,
-            payload: { type, text }
+            payload: {type, text}
         });
     };
 };
